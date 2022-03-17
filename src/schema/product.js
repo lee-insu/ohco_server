@@ -2,11 +2,11 @@ import { gql } from "apollo-server-express";
 
 const productsSchema = gql`
   type RecommandProducts {
-    product_id: String
+    id: String
   }
 
   type Products {
-    product_id: String
+    id: String
     img_url: String
     name: String
     brand: String
