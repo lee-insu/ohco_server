@@ -9,6 +9,7 @@ const productsSchema = gql`
     id: String
     img_url: String
     name: String
+    img_copyright: String
     brand: String
     shop_url: String
     cody: String
@@ -20,6 +21,7 @@ const productsSchema = gql`
     product(id: ID!): Products
     products: [Products]
     productarray(id: [String]): [Products]
+    productsearch(search: String): [Products]
   }
 `;
 

@@ -15,6 +15,7 @@ const musicSchema = gql`
   extend type Query {
     music(id: ID): Music
     musicarray: [Music]
+    musicsearch(search: String): [Music]
   }
 `;
 

@@ -9,6 +9,14 @@ const productResolver = {
       db.products.filter((item) => {
         return id.includes(item.id);
       }),
+    productsearch: (parent, { search = "" }, { db }) =>
+      db.products.filter((item) => {
+        return (
+          item.name.toLowerCase().includes(search) ||
+          item.cody.toLowerCase().includes(search) ||
+          item.brand.toLowerCase().includes(search)
+        );
+      }),
   },
 };
 

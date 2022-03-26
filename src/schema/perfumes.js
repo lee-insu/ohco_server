@@ -20,6 +20,7 @@ const perfumesSchema = gql`
   extend type Query {
     perfume(id: ID!): Perfumes
     perfumesarray: [Perfumes]
+    perfumesearch(search: String): [Perfumes]
   }
 `;
 

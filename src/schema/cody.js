@@ -39,9 +39,10 @@ const codySchema = gql`
     ): [Codylist]
     codylist: [Codylist]
     usercodylist(user_id: String): [Codylist]
-    usersimilarlist(theme: String): [Codylist]
+    usersimilarlist(style: String, sex: String): [Codylist]
     codyitem(id: ID!): Codylist
     codyarray(id: [String]): [Codylist]
+    codysearch(search: String): [Codylist]
     information: Information
     category: Category
   }
