@@ -33,6 +33,7 @@ server.applyMiddleware({
       "http://localhost:3000",
       "https://studio.apollographql.com",
       "https://34.82.133.56:3000",
+      "http://34.82.133.56:3000",
     ],
     credentials: true,
   },
