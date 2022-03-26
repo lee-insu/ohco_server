@@ -34,10 +34,10 @@ server.applyMiddleware({
   },
 });
 
-await new Promise((resolve) => httpServer.listen({ port: 8000 }, resolve));
+await new Promise((resolve) => httpServer.listen({ port: 3000 }, resolve));
 
 // console.log(process.env.DB_MOMNGO);
-console.log(`🚀 Server ready at http://localhost:8000${server.graphqlPath}`);
+console.log(`🚀 Server ready at http://localhost:3000${server.graphqlPath}`);
 
 // const uri =
 //
