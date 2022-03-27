@@ -10,3 +10,5 @@ client.connect((err) => {
   const collection = client.db("test").collection("devices");
   client.close();
 });
+
+//server.js

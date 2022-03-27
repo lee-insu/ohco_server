@@ -25,20 +25,29 @@ const server = new ApolloServer({
   plugins: [ApolloServerPluginDrainHttpServer({ httpServer })],
 });
 await server.start();
+
 server.applyMiddleware({
   app,
   path: "/graphql",
-  cors: {
-    origin: ["http://localhost:3000", "https://studio.apollographql.com"],
-    credentials: true,
-  },
 });
 
-await new Promise((resolve) => httpServer.listen({ port: 80 }, resolve));
+await new Promise((resolve) => httpServer.listen({ port: 8080 }, resolve));
+
+//  origin: ["http://localhost:3000", "https://studio.apollographql.com"],
+console.log(`🚀 Server ready at http://localhost:8080${server.graphqlPath}`);
+// server.applyMiddleware({
+//   app,
+//   path: "/graphql",
+//   cors: {
+//     origin: ["http://localhost:3000", "https://studio.apollographql.com"],
+//     credentials: true,
+
+//   },
+// });
+
+//Mongo
 
 // console.log(process.env.DB_MOMNGO);
-console.log(`🚀 Server ready at http://localhost${server.graphqlPath}`);
-
 // const uri =
 //
 
