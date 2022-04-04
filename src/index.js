@@ -29,21 +29,15 @@ await server.start();
 server.applyMiddleware({
   app,
   path: "/graphql",
+  cors: {
+    origin: ["http://localhost:3000", "https://studio.apollographql.com"],
+    credentials: true,
+  },
 });
 
-await new Promise((resolve) => httpServer.listen({ port: 8080 }, resolve));
+await new Promise((resolve) => httpServer.listen({ port: 8000 }, resolve));
 
-//  origin: ["http://localhost:3000", "https://studio.apollographql.com"],
-console.log(`🚀 Server ready at http://localhost:8080${server.graphqlPath}`);
-// server.applyMiddleware({
-//   app,
-//   path: "/graphql",
-//   cors: {
-//     origin: ["http://localhost:3000", "https://studio.apollographql.com"],
-//     credentials: true,
-
-//   },
-// });
+console.log(`🚀 Server ready at http://localhost:8000${server.graphqlPath}`);
 
 //Mongo
 
