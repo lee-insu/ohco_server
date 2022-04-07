@@ -1462,5 +1462,27 @@
     "cody": "모던캐주얼",
     "shop_url": "http://www.youmant.com/product/detail.html?product_no=679&cate_no=24&display_group=1",
     "recommand_products": [{ "id": "" }]
+  },
+  {
+    "id": "112",
+    "img_url": "https://i.ibb.co/gwSZzhr/image.jpg",
+    "price": 155000,
+    "name": "Alley",
+    "img_copyright": "fakeme",
+    "brand": "fakeme",
+    "cody": "모던캐주얼",
+    "shop_url": "http://gofakeme.com/product/alley%EC%95%8C%EB%A0%88%EC%9D%B4-bsv/1417/category/24/display/1/",
+    "recommand_products": [{ "id": "" }]
+  },
+  {
+    "id": "113",
+    "img_url": "https://i.ibb.co/ZTjfGZs/image.jpg",
+    "price": 179000,
+    "name": "Guvi shoulderbag black",
+    "img_copyright": "lounge unit",
+    "brand": "lounge unit",
+    "cody": "모던캐주얼",
+    "shop_url": "https://m.wizwid.com/MCSW/handler/wizwid/kr/MallProduct-Start?AssortID=707532778&CategoryID=&ClickCategoryID=&mcode=m_brand_detail_item",
+    "recommand_products": [{ "id": "" }]
   }
 ]
