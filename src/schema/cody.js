@@ -28,7 +28,7 @@ const codySchema = gql`
   }
 
   extend type Query {
-    codymain(seoson: String, offset: Int, limit: Int): [Codylist]
+    codymain(sex: String, season: String, offset: Int, limit: Int): [Codylist]
     codyfilter(
       mood: String
       season: String

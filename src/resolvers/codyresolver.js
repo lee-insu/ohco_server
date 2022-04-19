@@ -1,14 +1,28 @@
 const codyResolver = {
   Query: {
-    codymain: (parent, { seoson = "", offset = "", limit = "" }, { db }) =>
-      seoson
-        ? db.cody
-
-            .filter((item) => {
-              return item.category.season === seoson;
-            })
-            .slice(offset, limit)
-        : db.cody.slice(offset, limit),
+    codymain: (
+      parent,
+      { sex = "", season = "", offset = "", limit = "" },
+      { db }
+    ) =>
+      db.cody
+        .filter((item) => {
+          const condition = { sex, season };
+          Object.keys(condition).forEach((key) => {
+            if (condition[key] === "") {
+              delete condition[key];
+            }
+          });
+          let result = true;
+          for (let key of Object.keys(condition)) {
+            if (item.category[key] != condition[key]) {
+              result = false;
+              break;
+            }
+          }
+          return result;
+        })
+        .slice(offset, limit),
 
     codyfilter: (
       parent,
