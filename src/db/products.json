@@ -1484,5 +1484,27 @@
     "cody": "모던캐주얼",
     "shop_url": "https://m.wizwid.com/MCSW/handler/wizwid/kr/MallProduct-Start?AssortID=707532778&CategoryID=&ClickCategoryID=&mcode=m_brand_detail_item",
     "recommand_products": [{ "id": "" }]
+  },
+  {
+    "id": "114",
+    "img_url": "https://i.ibb.co/68MVXYC/image.jpg",
+    "price": 41650,
+    "name": "Oversized Cashmere Knit Vest Gray",
+    "img_copyright": "sai",
+    "brand": "sai",
+    "cody": "모던캐주얼",
+    "shop_url": "https://www.saistore.kr/product/8f806d09-348e-4c8f-ba3b-5df4038f3fea-53",
+    "recommand_products": [{ "id": "" }]
+  },
+  {
+    "id": "115",
+    "img_url": "https://i.ibb.co/w4Ykh7d/image.jpg",
+    "price": 39900,
+    "name": "와이드 데님 팬츠",
+    "img_copyright": "무신사",
+    "brand": "무신사 스탠다드",
+    "cody": "캐주얼",
+    "shop_url": "https://store.musinsa.com/app/goods/2208664",
+    "recommand_products": [{ "id": "" }]
   }
 ]
