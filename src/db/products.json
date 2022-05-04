@@ -1506,5 +1506,49 @@
     "cody": "캐주얼",
     "shop_url": "https://store.musinsa.com/app/goods/2208664",
     "recommand_products": [{ "id": "" }]
+  },
+  {
+    "id": "116",
+    "img_url": "https://i.ibb.co/6Z6dsCL/image.jpg",
+    "price": 58000,
+    "name": "퍼프 트위드 반팔 자켓",
+    "img_copyright": "메이지니",
+    "brand": "",
+    "cody": "모던캐주얼",
+    "shop_url": "https://smartstore.naver.com/mayjinny/products/5531458117",
+    "recommand_products": [{ "id": "" }]
+  },
+  {
+    "id": "117",
+    "img_url": "https://i.ibb.co/dpBB2cC/image.png",
+    "price": 50000,
+    "name": "스프링 루즈 셔츠",
+    "img_copyright": "메이지니",
+    "brand": "",
+    "cody": "모던캐주얼",
+    "shop_url": "https://smartstore.naver.com/mayjinny/products/6593567393",
+    "recommand_products": [{ "id": "" }]
+  },
+  {
+    "id": "118",
+    "img_url": "https://i.ibb.co/bbyQNmt/image.jpg",
+    "price": 62000,
+    "name": "포켓 원버튼 자켓",
+    "img_copyright": "메이지니",
+    "brand": "",
+    "cody": "모던캐주얼",
+    "shop_url": "https://smartstore.naver.com/mayjinny/products/6577201627",
+    "recommand_products": [{ "id": "" }]
+  },
+  {
+    "id": "119",
+    "img_url": "https://i.ibb.co/x6x65rs/image.jpg",
+    "price": 64000,
+    "name": "라인 린넨 랩 원피스",
+    "img_copyright": "메이지니",
+    "brand": "",
+    "cody": "모던캐주얼",
+    "shop_url": "https://smartstore.naver.com/mayjinny/products/6608381843",
+    "recommand_products": [{ "id": "" }]
   }
 ]
